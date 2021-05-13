@@ -1,0 +1,81 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #141414c4;
+    
+  }
+.banner {
+    /*display: none;*/
+    display: flex;
+    align-items: center;
+    visibility:hidden;
+    justify-content: center;
+    /* position: absolute; */
+    }
+  .banner img{
+    
+  position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+  }
+  .particles{
+    position: relative;
+    background-image: url("https://www.pexels.com/photo/black-computer-keyboard-785429/");
+    border-style: dotted;
+    border-width: 12px;
+    border-color: chartreuse;
+  }
+  
+  #demo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 80%;
+    max-height: 80%;
+    max-width: 80%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+  
+  #action {
+    padding: 10px;
+    font-size: 0.875em;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
+  text{
+      font-size: 36px;
+      font-weight: 400;
+  }
+
+  .myworks{
+      background-color: blueviolet;
+      width: 0;
+      height: 500px;
+  }
+  .myworks :nth-child(1){
+    width: 1fr;
+    height: 120px;
+    background-color: burlywood;
+  }
+  .myworks :nth-child(2){
+ background-color: crimson;
+ width: 1fr;
+ height: 120px;
+
+}
+.myworks :nth-child(3){
+background-color: darkgoldenrod;
+width: 1fr;
+height: 120px;
+}
+  
